@@ -71,4 +71,10 @@ Page({
       }
     })
   },
+  onShareAppMessage() {
+    return {
+      title: '新条形码识别生成神器',
+      path: '/pages/index/index'
+    }
+  }
 })
