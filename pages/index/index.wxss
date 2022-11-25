@@ -17,3 +17,11 @@
 .weui-form-preview__value_in-bd {
   color: #000;
 }
+
+.weui-form-preview__item{
+ display: flex;
+ justify-content: space-between;   
+}
+.weui-form-preview__label {
+  text-align-last:auto!important;
+}

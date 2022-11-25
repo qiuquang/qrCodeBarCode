@@ -23,3 +23,14 @@
   height: 200px;
   margin: 0 auto;
 }
+
+.weui-form-preview__item{
+  display: flex;
+  justify-content: space-between;   
+ }
+ .weui-form-preview__item_img{
+   justify-content: center;
+ }
+ .weui-form-preview__label {
+   text-align-last:auto!important;
+ }
