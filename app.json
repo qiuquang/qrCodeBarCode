@@ -3,7 +3,9 @@
     "pages/index/index",
     "pages/code/code",
     "pages/logs/logs",
-    "pages/detail/detail"
+    "pages/detail/detail",
+    "pages/packageSkyline/pages/flutter/scale-page/index",
+    "pages/packageSkyline/pages/flutter/half-page/index"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -33,5 +35,7 @@
         "selectedIconPath": "images/history_selected.png"
       }
     ]
-  }
+  },
+  "mp-navigation-bar": "/component/navigation-bar/navigation-bar",
+  "lazyCodeLoading": "requiredComponents"
 }

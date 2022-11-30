@@ -24,6 +24,17 @@ App({
     updateManager.onUpdateFailed(function () {
       // 新的版本下载失败
     })
+
+    // skyline
+    var systemInfo = wx.getSystemInfoSync();
+    console.log('@@@ systemInfo ', systemInfo)
+    Object.assign(this.globalData, systemInfo);
+    require.async('./pages/packageSkyline/common/custom-route/index.js').then(utils => {
+      console.log('--------begin installRouteBuilder')
+      utils.installRouteBuilder() // 'common'
+    }).catch(({mod, errMsg}) => {
+      console.error(`installRouteBuilder path: ${mod}, ${errMsg}`)
+    })
   },
   globalData: {
     userInfo: null

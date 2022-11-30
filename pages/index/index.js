@@ -60,6 +60,11 @@ Page({
       }
     })
   },
+  gotoskyline() {
+    wx.navigateTo({
+      url: '/pages/packageSkyline/pages/flutter/scale-page/index',
+    })
+  },
   onCopy () {
     // 复制到剪贴板
     wx.setClipboardData({

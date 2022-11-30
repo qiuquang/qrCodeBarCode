@@ -30,7 +30,7 @@
 
     <view class="page__bd_spacing">
       <button bindtap="onScan" class="weui-btn" type="primary">扫一扫</button>
-      <!--<button class="weui-btn" type="primary" plain="true">从相册上传</button>-->
+      <!--<button class="weui-btn" type="primary" plain="true">从相册上传</button>--> <button bindtap="gotoskyline" class="weui-btn" type="primary">skyline</button>
     </view>
   </view>
 </view>

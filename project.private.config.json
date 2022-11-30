@@ -3,5 +3,6 @@
   "projectname": "qrCodeBarCode",
   "setting": {
     "compileHotReLoad": true
-  }
+  },
+  "condition": {}
 }
